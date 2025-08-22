@@ -21,9 +21,6 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'API Reference', link: '/api/' },
-      { text: 'Examples', link: '/examples/' },
-      { text: 'Custom UI', link: '/custom-ui/' },
       { text: 'GitHub', link: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes' },
     ],
 
@@ -54,43 +51,6 @@ export default defineConfig({
             { text: 'Rate Limiting', link: '/guide/rate-limiting' },
             { text: 'Caching', link: '/guide/caching' },
             { text: 'Streaming', link: '/guide/streaming' },
-          ]
-        }
-      ],
-      '/api/': [
-        {
-          text: 'API Reference',
-          items: [
-            { text: 'Overview', link: '/api/' },
-            { text: 'ShapesApiClient', link: '/api/client' },
-            { text: 'ShapesApiConfig', link: '/api/config' },
-            { text: 'Models', link: '/api/models' },
-            { text: 'Exceptions', link: '/api/exceptions' },
-            { text: 'Helpers', link: '/api/helpers' },
-          ]
-        }
-      ],
-      '/examples/': [
-        {
-          text: 'Examples',
-          items: [
-            { text: 'Basic Chat', link: '/examples/basic-chat' },
-            { text: 'Multimodal Messages', link: '/examples/multimodal' },
-            { text: 'Shape Profiles', link: '/examples/profiles' },
-            { text: 'Custom Themes', link: '/examples/themes' },
-            { text: 'Error Handling', link: '/examples/error-handling' },
-          ]
-        }
-      ],
-      '/custom-ui/': [
-        {
-          text: 'Building Custom UIs',
-          items: [
-            { text: 'Overview', link: '/custom-ui/' },
-            { text: 'Helper Functions', link: '/custom-ui/helpers' },
-            { text: 'Custom Interceptors', link: '/custom-ui/interceptors' },
-            { text: 'Advanced Configuration', link: '/custom-ui/advanced' },
-            { text: 'Real-world Examples', link: '/custom-ui/examples' },
           ]
         }
       ]

@@ -211,7 +211,7 @@ The `example/` app demonstrates:
 
 Run:
 ```bash
-cd example
+cd ../example
 flutter pub get
 flutter run
 ```
@@ -219,5 +219,5 @@ flutter run
 ## 📚 Documentation
 
 - **📖 [Full Documentation](https://flutter_shapes.ionicerrrrscode.com)** - Complete API reference
-- **🎯 [Examples](example/)** - Working example app with Material 3
+- **🎯 [Examples](https://github.com/Ionic-Errrrs-Code/flutter_shapes/tree/main/example)** - Working example app with Material 3
 - **🔧 [API Reference](https://flutter_shapes.ionicerrrrscode.com/#/)** - Detailed function documentation

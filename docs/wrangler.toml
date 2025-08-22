@@ -1,5 +1,5 @@
-name = "flutter-shapes-docs"
-compatibility_date = "2024-01-01"
+name = 'flutter-shapes-inc'
+compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
 
 [site]
