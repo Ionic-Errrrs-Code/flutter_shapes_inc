@@ -2,6 +2,8 @@ name = 'flutter-shapes-inc'
 compatibility_date = "2025-01-01"
 compatibility_flags = ["nodejs_compat"]
 
+main = "workers-site/index.js"
+
 [site]
 bucket = ".vitepress/dist"
 
@@ -10,11 +12,3 @@ name = "flutter-shapes"
 
 [env.staging]
 name = "flutter-shapes-docs-staging"
-
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
-
-[build]
-command = "npm run docs:build"
