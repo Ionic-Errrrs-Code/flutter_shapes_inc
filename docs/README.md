@@ -21,12 +21,14 @@ docs/
 ## 🎯 **What This Documentation Covers**
 
 ### **Core API Functions**
+
 - **Chat Functions**: `sendMessage`, `sendImageMessage`, `sendAudioMessage`
 - **Image Generation**: `generateImage` with `!imagine` command and multimodal support
 - **Profile Management**: `getShapeProfile` for public shapes
 - **Utility Functions**: `initialize`, `testConnection`
 
 ### **Advanced Usage**
+
 - **Direct Client**: `ShapesApiClient` for custom configurations
 - **Message Models**: `ShapesMessage`, `ContentPart` for complex messages
 - **Configuration**: Custom headers, timeouts, retry logic
@@ -34,6 +36,7 @@ docs/
 - **Helper Functions**: `extractImageUrls` and `extractTextContent` for response processing
 
 ### **Getting Started**
+
 - **Installation**: Package setup and initialization
 - **Quick Start**: Basic usage examples
 - **Best Practices**: Recommended patterns and error handling
@@ -49,6 +52,7 @@ docs/
 ## 🌐 **Deployment**
 
 ### **Cloudflare Workers Pages**
+
 The documentation is configured for deployment to Cloudflare Workers Pages:
 
 1. **Build**: `npm run docs:build`
@@ -56,6 +60,7 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 3. **Domain**: `https://flutter_shapes.ionicerrrrscode.com/`
 
 ### **Configuration**
+
 - **wrangler.toml**: Cloudflare Workers configuration
 - **Build Output**: `.vitepress/dist` directory
 - **SPA Routing**: Handles client-side routing properly
@@ -64,6 +69,7 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 📚 **Content Organization**
 
 ### **Main Documentation (`index.md`)**
+
 - **Quick Start**: Simple examples using `ShapesAPI`
 - **Complete Function List**: All available functions grouped by category
 - **Models**: Data structures for advanced usage
@@ -71,6 +77,7 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 - **Best Practices**: Error handling and recommendations
 
 ### **Guide Section**
+
 - **Installation**: Package setup and initialization
 - **Introduction**: Overview and core concepts
 
@@ -84,12 +91,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 🚀 **Performance**
 
 ### **Optimization Features**
+
 - **Static Generation**: Pre-built HTML for fast loading
 - **Code Splitting**: Lazy loading of JavaScript
 - **Image Optimization**: Optimized images and assets
 - **CDN Distribution**: Global content delivery
 
 ### **Metrics**
+
 - **Lighthouse Score**: 95+ performance rating
 - **First Contentful Paint**: < 1.5 seconds
 - **Largest Contentful Paint**: < 2.5 seconds
@@ -98,12 +107,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 🔍 **Search & Navigation**
 
 ### **Local Search**
+
 - **Full-text Search**: Search across all content
 - **Fuzzy Matching**: Intelligent search suggestions
 - **Fast Results**: Instant search results
 - **Mobile Optimized**: Touch-friendly search interface
 
 ### **Navigation**
+
 - **Sidebar Navigation**: Hierarchical content organization
 - **Breadcrumbs**: Clear navigation path
 - **Table of Contents**: Page-level navigation
@@ -112,6 +123,7 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 📱 **Mobile Experience**
 
 ### **Responsive Design**
+
 - **Mobile First**: Designed for mobile devices
 - **Touch Friendly**: Optimized for touch interactions
 - **Fast Loading**: Optimized for mobile networks
@@ -119,12 +131,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 🌟 **Why This Documentation?**
 
 ### **Comprehensive Coverage**
+
 - **Complete API**: Every public method documented
 - **Real Examples**: Production-ready code samples
 - **Best Practices**: Industry-standard patterns
 - **Troubleshooting**: Common issues and solutions
 
 ### **Developer Experience**
+
 - **Easy Navigation**: Intuitive information architecture
 - **Fast Search**: Quick access to information
 - **Code Examples**: Copy-paste ready code
@@ -133,12 +147,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 🤝 **Contributing**
 
 ### **Documentation Updates**
+
 1. **Fork Repository**: Create your own fork
 2. **Make Changes**: Update documentation content
 3. **Test Locally**: Verify changes work correctly
 4. **Submit PR**: Create pull request with changes
 
 ### **Content Guidelines**
+
 - **Clear Writing**: Use simple, clear language
 - **Code Examples**: Provide working code samples
 - **API Focus**: Focus on function usage, not UI implementation
@@ -147,12 +163,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 📞 **Support**
 
 ### **Getting Help**
+
 - **GitHub Issues**: Report bugs and request features
 - **Discussions**: Community support and questions
 - **Documentation**: Comprehensive guides and examples
 - **Example App**: Working implementation reference
 
 ### **Resources**
+
 - **API Reference**: Complete technical documentation
 - **Examples**: Real-world usage examples
 - **Best Practices**: Recommended development patterns
@@ -161,12 +179,14 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 ## 🎉 **What's Next?**
 
 ### **Future Enhancements**
+
 - **Interactive Playground**: Live code editor
 - **Video Tutorials**: Step-by-step video guides
 - **Community Examples**: User-contributed examples
 - **Performance Monitoring**: Real-time performance metrics
 
 ### **Long-term Goals**
+
 - **Industry Standard**: Become the go-to Flutter AI API documentation
 - **Function Coverage**: Ensure 100% API function documentation
 - **Performance Leader**: Set new performance standards

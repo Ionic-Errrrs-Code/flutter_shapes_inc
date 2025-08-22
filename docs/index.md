@@ -57,6 +57,7 @@ Future<void> chat() async {
 ## Complete Function List
 
 ### Chat & Multimodal
+
 - `sendMessage(shapeUsername, message)`
 - `sendImageMessage(shapeUsername, message, imageUrl)`
 - `sendAudioMessage(shapeUsername, message, audioUrl)`
@@ -66,11 +67,13 @@ Future<void> chat() async {
 - `quickChat(shapeUsername, message)`
 
 ### Shape Profiles & Discovery
+
 - `getShapeProfile(username)`
 - `getShapeProfiles(List<String> usernames)`
 - `getPopularShapes({limit = 20})`
 
 ### Shape Commands
+
 - `resetShape(shapeUsername)`
 - `getShapeInfo(shapeUsername)`
 - `getHelp(shapeUsername)`
@@ -78,10 +81,12 @@ Future<void> chat() async {
 - `generateImage(shapeUsername, prompt)` - Multimodal response support
 
 ### Helper Functions
+
 - `extractImageUrls(response)` - Extract image URLs from multimodal responses
 - `extractTextContent(response)` - Extract text content from multimodal responses
 
 ### Information & Data
+
 - `getWeather(shapeUsername, location)`
 - `getCurrentTime(shapeUsername, [timezone])`
 - `getNews(shapeUsername, [topic])`
@@ -89,16 +94,19 @@ Future<void> chat() async {
 - `getCryptoInfo(shapeUsername, symbol)`
 
 ### Language & Translation
+
 - `translate(shapeUsername, text, targetLanguage)`
 - `define(shapeUsername, word)`
 - `getSynonyms(shapeUsername, word)`
 - `getAntonyms(shapeUsername, word)`
 
 ### Math & Conversion
+
 - `calculate(shapeUsername, expression)`
 - `convert(shapeUsername, value, fromUnit, toUnit)`
 
 ### Media & Entertainment
+
 - `getMovieInfo(shapeUsername, title)`
 - `getBookInfo(shapeUsername, title)`
 - `getSongInfo(shapeUsername, title)`
@@ -109,6 +117,7 @@ Future<void> chat() async {
 - `getTrivia(shapeUsername, [category])`
 
 ### Lifestyle & Learning
+
 - `getRecipe(shapeUsername, dish)`
 - `getWorkout(shapeUsername, [goal])`
 - `getMeditation(shapeUsername, [type])`
@@ -123,6 +132,7 @@ Future<void> chat() async {
 - `getWritingSuggestions(shapeUsername, text)`
 
 ### Utilities
+
 - `testConnection()`
 - `getUsageStats()`
 
@@ -131,6 +141,7 @@ Future<void> chat() async {
 The `generateImage()` function provides support for multimodal responses:
 
 ### Smart Response Parsing
+
 ```dart
 // Generate an image
 final response = await ShapesAPI.generateImage('tenshi', 'a beautiful cat');
@@ -149,17 +160,21 @@ if (imageUrls.isNotEmpty) {
 ```
 
 ### Response Format
+
 The API returns responses in this format:
+
 ```
 Here's your generated image description!
 https://files.shapes.inc/f4098070.png
 ```
 
 ### Helper Functions
+
 - **`extractImageUrls(response)`**: Extracts all image URLs from the response
 - **`extractTextContent(response)`**: Extracts just the text content, excluding URLs
 
 ### Multiple Images
+
 When multiple images are generated, they're returned as separate URLs on new lines, making it easy to display them in sequence.
 
 ## Models (for advanced usage)
@@ -204,12 +219,14 @@ class ShapeProfile {
 ## Example App (Material 3)
 
 The `example/` app demonstrates:
+
 - Segmented composer for text, image, audio, and `!imagine`
 - Shape search and selection using public profiles
 - Responsive layout with SingleChildScrollView
 - Safe avatar rendering with initials fallback
 
 Run:
+
 ```bash
 cd ../example
 flutter pub get

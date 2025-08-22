@@ -5,12 +5,14 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 ## ✨ Features
 
 ### 🎨 Beautiful Material 3 Design
+
 - Modern, aesthetic UI following Material 3 guidelines
 - Dynamic color support with system theme integration
 - Smooth animations and transitions
 - Responsive design for different screen sizes
 
 ### 💬 Chat Functionality
+
 - **Real-time Chat**: Chat with any AI shape from the Shapes Inc platform
 - **Message Types**: Support for text, images, and multimodal content
 - **Typing Indicators**: Animated typing indicators for better UX
@@ -18,12 +20,14 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 - **Attachment Support**: Send images via URL or generate AI images
 
 ### 🤖 AI Shape Integration
+
 - **Shape Browser**: Discover and search through available AI shapes
 - **Popular Shapes**: Curated list of trending and popular shapes
 - **Shape Profiles**: Detailed information about each AI personality
 - **Category Filtering**: Browse shapes by category (Entertainment, Education, etc.)
 
 ### 🚀 Advanced Features
+
 - **Image Generation**: Create AI-generated images from text descriptions
 - **Weather Information**: Get real-time weather data for any location
 - **News Updates**: Access latest news and current events
@@ -33,6 +37,7 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 - **Utilities**: Calculator, file processing, and productivity tools
 
 ### ⚙️ App Management
+
 - **Settings Panel**: Configure API keys, preferences, and app behavior
 - **Connection Status**: Real-time API connection monitoring
 - **Cache Management**: Clear cache and refresh data
@@ -41,6 +46,7 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Flutter SDK (>=3.10.0)
 - Dart SDK (>=3.0.0)
 - Android Studio / VS Code with Flutter extensions
@@ -49,12 +55,14 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd flutter_shapes_incexample
    ```
 
 2. **Install dependencies**
+
    ```bash
    flutter pub get
    ```
@@ -65,6 +73,7 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
    - Optionally customize `userId` and `channelId`
 
 4. **Run the app**
+
    ```bash
    flutter run
    ```
@@ -74,17 +83,20 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 The app requires a valid Shapes Inc API key to function. You can configure this in several ways:
 
 ### Method 1: Direct in Code
+
 ```dart
 const String apiKey = 'your-actual-api-key-here';
 ```
 
 ### Method 2: Through Settings
+
 1. Navigate to the Settings tab
 2. Tap on "API Key"
 3. Enter your API key and other configuration
 4. Test the connection
 
 ### Required Parameters
+
 - **API Key**: Your Shapes Inc API key (required)
 - **User ID**: Unique identifier for the user (optional)
 - **Channel ID**: Session identifier (optional, auto-generated if not provided)
@@ -92,6 +104,7 @@ const String apiKey = 'your-actual-api-key-here';
 ## 📱 App Structure
 
 ### Screens
+
 1. **Dashboard**: Welcome screen with quick actions and popular shapes
 2. **Shapes Browser**: Discover and search AI shapes
 3. **Features**: Explore different API capabilities
@@ -99,6 +112,7 @@ const String apiKey = 'your-actual-api-key-here';
 5. **Chat**: Individual chat sessions with AI shapes
 
 ### Navigation
+
 - Bottom navigation bar for main sections
 - Floating action button for quick chat access
 - Tab-based organization within screens
@@ -107,23 +121,27 @@ const String apiKey = 'your-actual-api-key-here';
 ## 🎯 Usage Examples
 
 ### Starting a Chat
+
 1. Navigate to the Shapes tab
 2. Browse available shapes or search for specific ones
 3. Tap on a shape to start chatting
 4. Send messages and receive AI responses
 
 ### Generating Images
+
 1. In any chat, tap the attachment button (+)
 2. Select "Generate Image"
 3. Describe the image you want
 4. Wait for AI-generated image
 
 ### Using Quick Actions
+
 1. From the Dashboard, use the Quick Actions grid
 2. Try different features like weather, news, or jokes
 3. Each action demonstrates a specific API capability
 
 ### Exploring Features
+
 1. Navigate to the Features tab
 2. Browse features by category
 3. Tap on any feature to test it
@@ -132,19 +150,23 @@ const String apiKey = 'your-actual-api-key-here';
 ## 🎨 Customization
 
 ### Themes
+
 The app supports Material 3 theming with:
+
 - Dynamic color support
 - Light/dark mode
 - Custom color schemes
 - System theme integration
 
 ### UI Components
+
 - `GradientContainer`: Beautiful gradient backgrounds
 - `AnimatedCard`: Interactive cards with animations
 - Custom Material 3 components
 - Responsive layouts
 
 ### Adding New Features
+
 1. Extend the `FeaturesProvider` class
 2. Add new feature definitions
 3. Implement feature execution logic
@@ -153,6 +175,7 @@ The app supports Material 3 theming with:
 ## 🔧 Development
 
 ### Project Structure
+
 ```
 lib/
 ├── main.dart              # App entry point and configuration
@@ -169,12 +192,14 @@ lib/
 ```
 
 ### Key Classes
+
 - **ShapesService**: Handles all API interactions
 - **Feature**: Represents individual API capabilities
 - **ChatMessage**: Chat message data structure
 - **ShapeProfile**: AI shape information
 
 ### Error Handling
+
 - Comprehensive error handling for API calls
 - User-friendly error messages
 - Fallback mechanisms for failed requests
@@ -185,22 +210,27 @@ lib/
 ### Common Issues
 
 **API Connection Failed**
+
 - Verify your API key is correct
 - Check internet connectivity
 - Ensure the API key has proper permissions
 
 **Shapes Not Loading**
+
 - Check API connection status
 - Verify API key configuration
 - Clear app cache and retry
 
 **Chat Not Working**
+
 - Ensure you're connected to the internet
 - Check if the specific shape is available
 - Try refreshing the shapes list
 
 ### Debug Mode
+
 Enable debug mode for detailed logging:
+
 ```dart
 // In main.dart
 debugShowCheckedModeBanner: true,
