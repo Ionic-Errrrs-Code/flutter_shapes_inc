@@ -9,9 +9,9 @@
 
 ---
 
-<p align="center">
+<div align="center">
   <img src="flutter_shapes_inc.gif" alt="flutter_shapes_inc demo" />
-</p>
+</div>
 
 ## 🚀 Quick Start
 
