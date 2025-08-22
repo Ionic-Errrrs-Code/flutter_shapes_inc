@@ -5,6 +5,15 @@ All notable changes to the Flutter Shapes Inc package will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-08-23
+
+### 🛠️ Maintenance & Fixes
+
+- Updated README to use a local GIF and improved HTML centering.
+- Excluded demo GIF from pub.dev package.
+- Improved .gitignore and .pubignore for pub.dev compliance.
+- Minor documentation and metadata updates.
+
 ## [1.0.0] - 2025-08-22
 
 ### 🎉 Initial Release
