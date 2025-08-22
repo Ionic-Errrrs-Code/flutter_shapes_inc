@@ -16,7 +16,7 @@ Add to your `pubspec.yaml`:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_shapes_inc: ^1.0.0
+  flutter_shapes_inc: ^1.0.1
 ```
 
 ## 2. Install

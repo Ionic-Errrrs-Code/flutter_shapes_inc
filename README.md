@@ -19,7 +19,7 @@
 
 ```yaml
 dependencies:
-  flutter_shapes_inc: ^1.0.0
+  flutter_shapes_inc: ^1.0.1
 ```
 
 ### 2. Initialize the API
@@ -434,7 +434,7 @@ String weather = await ShapesAPI.getWeather('tenshi', 'London');
 
 ```yaml
 dependencies:
-  flutter_shapes_inc: ^1.0.0
+  flutter_shapes_inc: ^1.0.1
 ```
 
 ### **Get dependencies**

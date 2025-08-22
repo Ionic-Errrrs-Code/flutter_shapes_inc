@@ -8,7 +8,7 @@ class AppConfig {
 
   // App Settings
   static const String appName = 'Shapes Chat';
-  static const String appVersion = '1.0.0';
+  static const String appVersion = '1.0.1';
   static const String appDescription =
       'A beautiful example app showcasing the Flutter Shapes package';
 

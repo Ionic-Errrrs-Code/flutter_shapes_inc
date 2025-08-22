@@ -204,7 +204,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     showAboutDialog(
       context: context,
       applicationName: 'Shapes Chat',
-      applicationVersion: '1.0.0',
+      applicationVersion: '1.0.1',
       applicationIcon: Container(
         width: 64,
         height: 64,
