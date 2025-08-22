@@ -1,0 +1,21 @@
+{
+  "name": "flutter-shapes",
+  "version": "1.0.0",
+  "description": "Documentation for Flutter Shapes package",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "docs:deploy": "npm run docs:build && wrangler pages deploy .vitepress/dist"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.44",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vue": "^3.4.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
