@@ -1,0 +1,22 @@
+# Flutter Shapes Inc Git Ignore
+# Dart & Flutter
+.dart_tool/
+.packages
+.pub/
+build/
+# IDEs
+.idea/
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+# Coverage
+coverage/
+# Ignore generated files
+*.g.dart
+# Ignore local env files
+.env
+# Ignore docs vitepress build
+/docs/.vitepress/
