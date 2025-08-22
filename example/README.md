@@ -51,7 +51,7 @@ A beautiful, sophisticated Material 3 example app showcasing the full capabiliti
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd flutter_shapes/example
+   cd flutter_shapes_incexample
    ```
 
 2. **Install dependencies**

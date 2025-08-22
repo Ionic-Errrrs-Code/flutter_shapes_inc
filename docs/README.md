@@ -176,4 +176,4 @@ The documentation is configured for deployment to Cloudflare Workers Pages:
 
 **Flutter Shapes Documentation - Built with ❤️ for the Flutter community** 🚀✨
 
-For questions, suggestions, or contributions, please visit our [GitHub repository](https://github.com/Ionic-Errrrs-Code/flutter_shapes) or join our [Discussions](https://github.com/Ionic-Errrrs-Code/flutter_shapes/discussions).
+For questions, suggestions, or contributions, please visit our [GitHub repository](https://github.com/Ionic-Errrrs-Code/flutter_shapes) or join our [Discussions](https://github.com/Ionic-Errrrs-Code/flutter_shapes_incdiscussions).

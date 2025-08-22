@@ -219,5 +219,5 @@ flutter run
 ## 📚 Documentation
 
 - **📖 [Full Documentation](https://flutter_shapes.ionicerrrrscode.com)** - Complete API reference
-- **🎯 [Examples](https://github.com/Ionic-Errrrs-Code/flutter_shapes/tree/main/example)** - Working example app with Material 3
+- **🎯 [Examples](https://github.com/Ionic-Errrrs-Code/flutter_shapes_inctree/main/example)** - Working example app with Material 3
 - **🔧 [API Reference](https://flutter_shapes.ionicerrrrscode.com/#/)** - Detailed function documentation
