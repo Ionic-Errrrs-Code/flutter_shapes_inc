@@ -1,6 +1,6 @@
+
 # Flutter Shapes Inc Git Ignore
 # Dart & Flutter
-.dart_tool/
 .packages
 .pub/
 build/
@@ -18,5 +18,5 @@ coverage/
 *.g.dart
 # Ignore local env files
 .env
-# Ignore docs vitepress build
-/docs/.vitepress/
+# Ignore docs vitepress build output only (not config)
+docs/.vitepress/dist/

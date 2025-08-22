@@ -21,6 +21,8 @@ example/.metadata
 
 # Documentation (not needed in published package)
 docs/
+!docs/.vitepress/config.ts
+docs/.vitepress/dist/
 
 # Test files (not needed in published package)
 test/
@@ -35,7 +37,6 @@ build/
 dist/
 .vite/
 .vuepress/
-docs/
 # ============================================================================
 # DEVELOPMENT FILES (Not needed in production)
 # ============================================================================
@@ -57,6 +58,7 @@ devtools_options.yaml
 analysis_options.yaml
 .packages
 .pub-cache/
+.dart_tool/
 
 # Generated files
 *.lock
