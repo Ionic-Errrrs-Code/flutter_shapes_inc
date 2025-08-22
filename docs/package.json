@@ -1,8 +1,8 @@
 {
   "type": "module",
-  "name": "flutter-shapes",
+  "name": "flutter-shapes-inc",
   "version": "1.0.0",
-  "description": "Documentation for Flutter Shapes package",
+  "description": "Documentation for Flutter Shapes Inc package",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",

@@ -8,7 +8,7 @@ main = "workers-site/index.js"
 bucket = ".vitepress/dist"
 
 [env.production]
-name = "flutter-shapes"
+name = "flutter-shapes-inc"
 
 [env.staging]
-name = "flutter-shapes-docs-staging"
+name = "flutter-shapes-inc-docs-staging"

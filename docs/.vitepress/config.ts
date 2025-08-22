@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Flutter Shapes',
+  title: 'Flutter Shapes Inc',
   description: 'Lightweight, developer-friendly package for Shapes Inc AI integration',
   lang: 'en-US',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#667eea' }],
-    ['meta', { property: 'og:title', content: 'Flutter Shapes' }],
+    ['meta', { property: 'og:title', content: 'Flutter Shapes Inc' }],
     ['meta', { property: 'og:description', content: 'Lightweight, developer-friendly package for Shapes Inc AI integration' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://flutter_shapes.ionicerrrrscode.com' }],
@@ -16,12 +16,12 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Flutter Shapes',
+    siteTitle: 'Flutter Shapes Inc',
 
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'GitHub', link: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes' },
+      { text: 'GitHub', link: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc' },
     ],
 
     sidebar: {
@@ -31,43 +31,23 @@ export default defineConfig({
           items: [
             { text: 'Introduction', link: '/guide/' },
             { text: 'Installation', link: '/guide/installation' },
-            { text: 'Quick Start', link: '/guide/quick-start' },
-            { text: 'Configuration', link: '/guide/configuration' },
-          ]
-        },
-        {
-          text: 'Core Concepts',
-          items: [
-            { text: 'API Client', link: '/guide/api-client' },
-            { text: 'Messages', link: '/guide/messages' },
-            { text: 'Shapes', link: '/guide/shapes' },
-            { text: 'Error Handling', link: '/guide/error-handling' },
-          ]
-        },
-        {
-          text: 'Advanced',
-          items: [
-            { text: 'Custom Interceptors', link: '/guide/interceptors' },
-            { text: 'Rate Limiting', link: '/guide/rate-limiting' },
-            { text: 'Caching', link: '/guide/caching' },
-            { text: 'Streaming', link: '/guide/streaming' },
           ]
         }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes' },
-      { icon: 'twitter', link: 'https://twitter.com/shapesinc' },
+      { icon: 'github', link: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc' },
+      { icon: 'x', link: 'https://x.com/mu7khbit' },
     ],
 
     footer: {
       message: 'Released under the BSD 3-Clause License.',
-      copyright: 'Copyright © 2025-present Flutter Shapes Team'
+      copyright: 'Copyright © 2025-present Flutter Shapes Inc Team'
     },
 
     editLink: {
-      pattern: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes/edit/main/docs/:path'
+      pattern: 'https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc/edit/main/docs/:path'
     },
 
     search: {

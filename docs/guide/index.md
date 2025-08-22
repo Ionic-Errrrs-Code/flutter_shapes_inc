@@ -20,7 +20,7 @@ A lightweight package providing a function-first API for Shapes Inc agents:
 
 - [Installation](./installation.md) - Get the package installed
 - [API Reference](../index.md#complete-function-list) - Full function list
-- [Example App](https://github.com/Ionic-Errrrs-Code/flutter_shapes/tree/main/example) - Material 3 demo
+- [Example App](https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc/tree/main/example) - Material 3 demo
 
 ## Architecture (Simple)
 
@@ -44,13 +44,13 @@ A lightweight package providing a function-first API for Shapes Inc agents:
 ## Support
 
 - 📚 **Documentation**: Root README and docs index
-- 💬 **Community**: [GitHub Discussions](https://github.com/Ionic-Errrrs-Code/flutter_shapes/discussions)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/Ionic-Errrrs-Code/flutter_shapes/issues)
+- 💬 **Community**: [GitHub Discussions](https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc/issues)
 - 📧 **Email**: support@ionicerrrrscode.com
 
 ## Examples
 
-See the [example app](https://github.com/Ionic-Errrrs-Code/flutter_shapes/tree/main/example) for a Material 3 UI with:
+See the [example app](https://github.com/Ionic-Errrrs-Code/flutter_shapes_inc/tree/main/example) for a Material 3 UI with:
 - Segmented composer (Text/Image/Audio/`!imagine`)
 - Public profile search and selection
 - Responsive layout and safe avatar fallbacks
