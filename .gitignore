@@ -14,8 +14,6 @@ Thumbs.db
 *.log
 # Coverage
 coverage/
-# Ignore generated files
-*.g.dart
 # Ignore local env files
 .env
 # Ignore docs vitepress build output only (not config)
