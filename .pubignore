@@ -37,6 +37,8 @@ build/
 dist/
 .vite/
 .vuepress/
+# Exclude demo GIF from pub.dev package
+flutter_shapes_inc.gif
 # ============================================================================
 # DEVELOPMENT FILES (Not needed in production)
 # ============================================================================
