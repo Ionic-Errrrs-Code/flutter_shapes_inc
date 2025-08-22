@@ -10,7 +10,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ionic-Errrrs-Code/flutter-shapes/refs/heads/main/flutter_shapes_inc.gif?token=GHSAT0AAAAAADE3FQIOW2CVYD5SZ365OEGG2FI32HA" alt="flutter_shapes_inc demo" />
+  <img src="flutter_shapes_inc.gif" alt="flutter_shapes_inc demo" />
 </p>
 
 ## 🚀 Quick Start
